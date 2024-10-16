@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { Button, Input, Label } from "@relume_io/relume-ui"; // Assuming you're using relume-ui
-import axios from "axios"; // For making API requests, install it using: npm install axios
+import { Button, Input, Label } from "@relume_io/relume-ui"; 
+import axios from "axios";
 
 export const ForgotPassword = () => {
   const [email, setEmail] = useState("");
